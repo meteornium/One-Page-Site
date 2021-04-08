@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unova Region</title>
+        <link rel="stylesheet" href="./css/shared.css">
+        <link rel="stylesheet" href="./css/animations.css">
+        <script src="js/lightbox.js" defer></script>
+    </head>
+    <body>
+
+        <!-- nav -->
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
+                    <a href="#home" onclick="closeModal()"><li>HOME</li></a>
+                    <a href="#gallery" onclick="closeModal()"><li>GALLERY</li></a>
+                    <a href="#contact" onclick="closeModal()"><li>RESERVATIONS</li></a>
+                </ul>
+            </div>
+        </div>
+        <!-- end nav -->
+
+        <!-- home -->
+        <div id="home">
+            <div class="container">
+                <div class="text-center">
+                    <span class="head-main">Unova Region</span>
+                </div>
+            </div>
+        </div>
+        <!-- end home -->
+
+        <!-- gallery -->
+        <section id="gallery">
+            <div class="container">
+                <h1>Gallery</h1>
+                    <!-- Images used to open the lightbox -->
+                    <div class="row">
+                        <div class="column photo-container">
+                            <div class="photo">
+                                <img src="./images/thumb/thumb_1.png" class="hover-shadow">
+                                <div class="photo-overlay" onclick="openModal();currentSlide(1)">
+                                    <h3 class="white-head">Click to Enlarge</h3>
+                                    <p>Many trainers begin their journey in small towns like Nuvema!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column photo-container">
+                            <div class="photo">
+                                <img src="./images/thumb/thumb_2.png" class="hover-shadow">
+                                <div class="photo-overlay" onclick="openModal();currentSlide(2)">
+                                    <h3 class="white-head">Click to Enlarge</h3>
+                                    <p>Our gyms are vibrant, colorful, and challenging!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column photo-container">
+                            <div class="photo">
+                                <img src="./images/thumb/thumb_3.png" class="hover-shadow">
+                                <div class="photo-overlay" onclick="openModal();currentSlide(3)">
+                                    <h3 class="white-head">Click to Enlarge</h3>
+                                    <p>Amazing scenery awaits!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column photo-container">
+                            <div class="photo">
+                                <img src="./images/thumb/thumb_4.png" class="hover-shadow">
+                                <div class="photo-overlay" onclick="openModal();currentSlide(4)">
+                                    <h3 class="white-head">Click to Enlarge</h3>
+                                    <p>Ancient legends and mysterious Pok&eacute;mon lie waiting for special trainers...</p>
+                                </div>    
+                            </div>
+                        </div>
+
+                        <div class="column photo-container">
+                            <div class="photo">
+                                <img src="./images/thumb/thumb_5.png" class="hover-shadow">
+                                <div class="photo-overlay" onclick="openModal();currentSlide(5)">
+                                    <h3 class="white-head">Click to Enlarge</h3>
+                                    <p>Unova mixes the cutting edge tech of the future with the natural scenery of this old region.</p>
+                                </div>    
+                            </div>
+                        </div>
+
+                        <div class="column photo-container">
+                            <div class="photo">
+                                <img src="./images/thumb/thumb_6.png" class="hover-shadow">
+                                <div class="photo-overlay" onclick="openModal();currentSlide(6)">
+                                    <h3 class="white-head">Click to Enlarge</h3>
+                                    <p>Powerful wild Pok&eacute;mon are ready to fight!</p>
+                                </div>    
+                            </div>
+                        </div>
+
+                        <div class="column photo-container">
+                            <div class="photo">
+                                <img src="./images/thumb/thumb_7.png" class="hover-shadow">
+                                <div class="photo-overlay" onclick="openModal();currentSlide(7)">
+                                    <h3 class="white-head">Click to Enlarge</h3>
+                                    <p>Enjoy beautiful views from the top of the Unova Ferris Wheel!</p>
+                                </div>  
+                            </div>
+                        </div>
+
+                        <div class="column photo-container">
+                            <div class="photo">
+                                <img src="./images/thumb/thumb_8.png" class="hover-shadow">
+                                <div class="photo-overlay" onclick="openModal();currentSlide(8)">
+                                    <h3 class="white-head">Click to Enlarge</h3>
+                                    <p>Enter your Pok&eacute;mon into Pok&eacute;mon musicals!</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="column photo-container">
+                            <div class="photo">
+                                <img src="./images/thumb/thumb_9.png" class="hover-shadow">
+                            <div class="photo-overlay" onclick="openModal();currentSlide(9)">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Dare to challenge the Elite Four and become the region's next Champion!</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- The Modal/Lightbox -->
+                    <div id="myModal" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+                    
+                            <div class="mySlides">
+                                <div class="numbertext">1 / 9</div>
+                                <img src="./images/thumb/thumb_1.png" style="width:100%; height:70%">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <div class="numbertext">2 / 9</div>
+                                <img src="./images/thumb/thumb_2.png" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <div class="numbertext">3 / 9</div>
+                                <img src="./images/thumb/thumb_3.png" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <div class="numbertext">4 / 9</div>
+                                <img src="./images/thumb/thumb_4.png" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <div class="numbertext">5 / 9</div>
+                                <img src="./images/thumb/thumb_5.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">6 / 9</div>
+                                <img src="./images/thumb/thumb_6.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">7 / 9</div>
+                                <img src="./images/thumb/thumb_7.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">8 / 9</div>
+                                <img src="./images/thumb/thumb_8.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">9 / 9</div>
+                                <img src="./images/thumb/thumb_9.png" style="width:100%">
+                            </div>
+
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        
+                            <!-- Caption text -->
+                            <div class="caption-container">
+                                <p id="caption"></p>
+                            </div>
+                        
+                            <!-- Thumbnail image controls -->
+                            <div class="column">
+                                <img class="demo" src="./images/thumb/thumb_1.png" onclick="currentSlide(1)" alt="Nuvema Town">
+                            </div>
+                        
+                            <div class="column">
+                                <img class="demo" src="./images/thumb/thumb_2.png" onclick="currentSlide(2)" alt="Water Type Gym">
+                            </div>
+                        
+                            <div class="column">
+                                <img class="demo" src="./images/thumb/thumb_3.png" onclick="currentSlide(3)" alt="Overlook of natural scenery">
+                            </div>
+                        
+                            <div class="column">
+                                <img class="demo" src="./images/thumb/thumb_4.png" onclick="currentSlide(4)" alt="Legendary Sword Trio and Keldeo">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="./images/thumb/thumb_5.png" onclick="currentSlide(5)" alt="Pok&eacute; Transfer Lab">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="./images/thumb/thumb_6.png" onclick="currentSlide(6)" alt="Wild Battle">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="./images/thumb/thumb_7.png" onclick="currentSlide(7)" alt="Unova Ferris Wheel">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="./images/thumb/thumb_8.png" onclick="currentSlide(8)" alt="Outside of Musical building">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="./images/thumb/thumb_9.png" onclick="currentSlide(9)" alt="Elite Four member Shauntelle's room">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- end gallery -->
+
+        <!-- rsvp -->
+        <section id="contact">
+            <div class="container">
+                <div class="heading-padding">
+                   <h1 class="heading-padding">Reservations</h1>
+                   <div class="reservation">
+                       <h2><span>Ancient legends await you here!</span>
+                        <br/>Reserve a flight to Unova today!
+                        </h2>
+                        <p class="rsvp-text">
+                            Please provide your contact information.
+                        </p>
+                        <div class="form-rsvp">
+                            <form action="" method="post">
+                                <input class="rsvp" type="text" value="" placeholder="First Name">
+                                <input class="rsvp" type="text" value="" placeholder="Last Name">
+                                <input class="rsvp" type="text" value="" placeholder="Email Address">
+                                <input class="rsvp" type="text" value="" placeholder="Phone Number">
+                                <div class="form-spacer">
+                                    <label class="terms">Terms and Conditions</label>
+                                </div>
+                                <div class="submit">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+        <!-- end rsvp -->
+
+        <!-- footer -->
+        <div id="footer">
+            Creator: Adam Kelley &nbsp;|&nbsp; www.unovaregion.pkmn &nbsp;|&nbsp; &copy; 2021
+        </div>
+        <!-- end footer -->
+    </body>
+</html>

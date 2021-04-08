@@ -1,0 +1,111 @@
+<div class="flex-container">
+
+                   <!-- photo-container 1-->
+                   <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_1.png" alt="Nuvema Town">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Many trainers begin their journey in small towns like Nuvema!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end photo container 1 -->
+
+                    <!-- photo-container 2 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_2.png"alt="Water Type Gym">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Our gyms are vibrant, colorful, and challenging!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end photo container 2 -->
+
+                    <!-- photo-container 3 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_3.png" width="256" height="192" alt="Overlook of natural scenery">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Amazing scenery awaits!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end photo container 3 -->
+
+                    <!-- photo-container 4 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_4.png" alt="Legendary Sword Trio and Keldeo">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Ancient legends and mysterious Pok&eacute;mon lie waiting for special trainers...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end photo container 4 -->
+
+                    <!-- photo-container 5 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_5.png" alt="Pok&eacute; Transfer Lab">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Unova mixes the cutting edge tech of the future with the natural scenery of this old region.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end photo container 5 -->
+
+                    <!-- photo-container 6 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_6.png" alt="Wild Battle">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Powerful wild Pok&eacute;mon are ready to fight!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end photo container 6 -->
+
+                    <!-- photo-container 7 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_7.png" alt="Unova Ferris Wheel">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Enjoy beautiful views from the top of the Unova Ferris Wheel!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end photo container 7 -->
+
+                    <!-- photo-container 8 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_8.png" alt="Outside of Musical building">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Enter your Pok&eacute;mon into Pok&eacute;mon musicals!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end photo container 8 -->
+
+                    <!-- photo-container 9 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumb_9.png" alt="Elite Four member Shauntelle's room">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Dare to challenge the Elite Four and become the region's next Champion!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end photo container 9 -->
+
+            </div>
