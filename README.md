@@ -1,5 +1,5 @@
 # One-Page-Site
-Unova getaway website utilizing HTML, CSS, and JS.
+Unova getaway website utilizing HTML, CSS, and JavaScript.
 
 ![image](https://user-images.githubusercontent.com/79771326/123163423-9050eb00-d426-11eb-8ad6-4f3fa0ec1c29.png)
 
@@ -14,7 +14,7 @@ The nav buttons stay at the top of the page when scrolling, done through CSS, an
 ![](https://media.giphy.com/media/V6zzstf5HVB72V05a5/giphy.gif)
 
 ## Gallery
-The gallery section contains nine images that all have hover effects when moused over. Additionally, the images can be clicked to enlarge, taking the user to a slideshow that takes them through the images with short captions beneath them. Slideshow can be exited through an 'x' on the top right.
+The gallery section contains nine images that all have hover effects when moused over. Additionally, the images can be clicked to enlarge, taking the user to a slideshow that takes them through the images with short captions beneath them. The slideshow was made using JavaScript, formated through CSS. Slideshow can be exited through an 'x' on the top right, also programmed through JavaScript.
 
 ### Hover Effect:
 ![](https://media.giphy.com/media/EGPgaC9tNBwi2uzIgH/giphy.gif)
