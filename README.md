@@ -10,6 +10,7 @@ Background images do not scroll with page, creating an effect that makes it seem
 
 ## Navbar Buttons
 The nav buttons stay at the top of the page when scrolling, done through CSS, and clicking them allows you to jump to different parts of the page. Navbar buttons also have hover effects, achieved through CSS.
+
 ![](https://media.giphy.com/media/V6zzstf5HVB72V05a5/giphy.gif)
 
 ## Gallery
